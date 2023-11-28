@@ -42,6 +42,3 @@ paginate: 8
 paginate_path: "/page/:num"
 
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
-
-include: [".gitignore", "_posts/_hidden_posts"]
-exclude: ["_posts/_hidden_posts", "Gemfile", "gemfile.lock", "node_modules", "vendor"]
