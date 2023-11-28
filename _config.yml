@@ -1,0 +1,47 @@
+title: Lisa Finch
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
+
+# Author Settings
+author: Lisa Finch # add your name
+author-img: lisatest.jpg # add your photo
+about-author: 🚀 Welcome! I'm Lisa 🌐
+  <br><br>
+  I've crafted this space as a personal hub to document my learning journey and build
+  a repository of knowledge for future exploration. My passion lies in the intricate world of System Administration and Network Security.
+  <br><br>
+  This site will serve as my dynamic canvas to experiment with and
+  solidify the concepts I'm delving into. 🛠️🔒
+# add description
+social-twitter: # add your Twitter handle
+social-facebook: # add your Facebook handle
+social-github: lisafinch # add your Github handle
+social-linkedin: # add your Linkedin handle
+social-email: # add your Email address
+
+# Disqus
+discus-identifier: mr-brown # add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+
+include: [".gitignore", "_posts/_hidden_posts"]
+exclude: ["_posts/_hidden_posts", "Gemfile", "gemfile.lock", "node_modules", "vendor"]
